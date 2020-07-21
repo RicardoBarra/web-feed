@@ -1,27 +1,19 @@
-.main {
+/*.main {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .advertisements {
   width: 300px;
-
-  background-color: red;
-  height: 400px;
 }
 
 .feed {
   flex-grow: 1;
-  margin: 0px 24px;
-
-  background-color: green;
-  height: 300px;
+ 
 }
 
 .popular_posts {
   width: 300px;
-
-  background-color: blue;
-  height: 500px;
 }
+*/
