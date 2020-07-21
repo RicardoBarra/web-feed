@@ -1,0 +1,4 @@
+Api
+xjHK33Ehvr8HbnAgJrj4elaIhScDT5r1
+
+https://api.giphy.com/v1/gifs/trending?api_key=xjHK33Ehvr8HbnAgJrj4elaIhScDT5r1&limit=3
