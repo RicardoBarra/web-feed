@@ -23,7 +23,7 @@ export default function Structure(props) {
     <div>
         <div className="main">
         <div className="popular_posts">a</div> 
-        {all_gifs.map(gif => (
+        {all_gifs.map((gif) => (
           <div className="col-md-6 col-lg-4">
           <Feed  
               name={gif.name}     

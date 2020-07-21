@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 export default function LikeButton() {
 
     const [hasLike, set_hasLike] = useState("")
@@ -11,7 +12,7 @@ export default function LikeButton() {
 return (
     <div>
         <button onClick={handleOnClick}>
-            {hasLike ? "You've like this. Click to unlike"
+            {hasLike ? "Clearly you enjoy this! Unlike?"
             : "Like this"    
         }
         </button>

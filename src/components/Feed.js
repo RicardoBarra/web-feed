@@ -1,14 +1,16 @@
 import React from 'react'
-
+import Button from './Button'
+import Fetching from './Fetching'
 
 export default function Feed(props) {
 
     return (
         <div className="card-body">
-            <h2 className="card-title">Gif</h2>
-            <p>{props.name}</p>
+            <h2 className="card-title">Gif name:</h2>
+            <h5>{props.name}</h5>
             <iframe title="gif" src={props.gif}></iframe>
-            <button type="button" class="btn btn-outline-dark">Like This</button>
+            <Button />
+            <Fetching />
         </div>
     )
 }
